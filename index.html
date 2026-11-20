@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DATABASE</h1>
+        <p>ITEM CATALOG / 001</p>
+    </header>
+
+    <main>
+        <section class="catalog">
+            <div class="section-heading">
+                <h2>CATÁLOGO DE ARMAS</h2>
+                <span>WEAPON COLLECTION</span>
+            </div>
+
+
+            <div id="category-filters" class="category-filters">
+    <button class="filter-button active" data-category="all">TODAS</button>
+    <button class="filter-button" data-category="Fuzis de assalto">FUZIS DE ASSALTO</button>
+    <button class="filter-button" data-category="Rifles de precisão">RIFLES DE PRECISÃO</button>
+    <button class="filter-button" data-category="Submetralhadoras">SUBMETRALHADORAS</button>
+    <button class="filter-button" data-category="Espingardas">ESPINGARDAS</button>
+    <button class="filter-button" data-category="Metraladoras leves">METRALHADORAS LEVES</button>
+    <button class="filter-button" data-category="Pistolas">PISTOLAS</button>
+    <button class="filter-button" data-category="Outros calibres">OUTROS CALIBRES</button>
+    <button class="filter-button" data-category="Armas brancas">ARMAS BRANCAS</button>
+    <button class="filter-button" data-category="Arremessáveis">ARREMESSÁVEIS</button>
+            </div>
+
+
+            <div id="weapon-grid" class="weapon-grid">
+                <!-- Os itens serão carregados aqui -->
+            </div>
+        </section>
+
+        <section id="item-details" class="item-details">
+            <p class="details-placeholder">
+                SELECIONE UM ITEM PARA VISUALIZAR OS DETALHES
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

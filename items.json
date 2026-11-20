@@ -1,0 +1,114 @@
+
+[
+    {
+        "id": "AF-001",
+        "name": "M4",
+        "category": "Espingardas",
+        "variants": [
+            {
+                "id": "AF-001-A",
+                "name": "M4 Padrão",
+                "image": "images/st-mxp.png",
+                "price": "1200",
+                "variante": "Padrão",
+                "origem": "Estados Unidos",
+                "acao": "Automática",
+                "calibre": "5.56mm",
+                "pm_base": "40",
+                "capacidade": "30",
+                "alcance": "500 metros",
+                "peso": "3.4 kg",
+                "slots_acessorios": {
+                    "Cano": "Silenciador",
+                    "Mira": "Red Dot",
+                    "Lateral": "Lanterna",
+                    "Inferior": "Empunhadura",
+                    "Outros": "X"
+                },
+                "description": "Versão padrão da M4."
+            }
+        ]
+    },
+    {
+        "id": "AF-002",
+        "name": "Pistol",
+        "category": "Pistolas",
+        "variants": [
+            {
+                "id": "AF-002-A",
+                "name": "Pistol Padrão",
+                "image": "images/ps-m1911.png",
+                "price": "450",
+                "variante": "Padrão",
+                "origem": "Estados Unidos",
+                "acao": "Semiautomática",
+                "calibre": "9mm",
+                "pm_base": "35",
+                "capacidade": "15",
+                "alcance": "50 metros",
+                "peso": "1.2 kg",
+                "slots_acessorios": {
+                    "Cano": "Silenciador",
+                    "Mira": "Red Dot",
+                    "Lateral": "Lanterna, Laser",
+                    "Inferior": "X",
+                    "Outros": "X"
+                },
+                "description": "Uma pistola semiautomática de uso comum."
+            }
+        ]
+    },
+
+    {
+        "id": "SMG-001",
+        "name": "MP5",
+        "category": "Submetralhadoras",
+        "variants": [
+            {
+                "id": "AF-002-A",
+                "name": "MP5",
+                "image": "images/smg-mp5.png",
+                "price": "450",
+                "variante": "Padrão",
+                "origem": "Estados Unidos",
+                "acao": "Semiautomática",
+                "calibre": "9mm",
+                "pm_base": "35",
+                "capacidade": "15",
+                "alcance": "50 metros",
+                "peso": "1.2 kg",
+                "slots_acessorios": {
+                    "Cano": "Silenciador",
+                    "Mira": "Red Dot",
+                    "Lateral": "Lanterna, Laser",
+                    "Inferior": "X",
+                    "Outros": "X"
+                },
+                "description": "Uma pistola semiautomática de uso comum."
+            },
+            {
+                "id": "AF-002-A",
+                "name": "MP5K",
+                "image": "images/smg-mp5k.png",
+                "price": "450",
+                "variante": "Padrão",
+                "origem": "Estados Unidos",
+                "acao": "Semiautomática",
+                "calibre": "9mm",
+                "pm_base": "35",
+                "capacidade": "15",
+                "alcance": "50 metros",
+                "peso": "1.2 kg",
+                "slots_acessorios": {
+                    "Cano": "Silenciador",
+                    "Mira": "Red Dot",
+                    "Lateral": "Lanterna, Laser",
+                    "Inferior": "X",
+                    "Outros": "X"
+                },
+                "description": "Uma pistola semiautomática de uso comum."
+            }
+            
+        ]
+    }
+]
